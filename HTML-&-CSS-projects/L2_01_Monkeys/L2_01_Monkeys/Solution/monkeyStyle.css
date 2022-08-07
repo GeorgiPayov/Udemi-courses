@@ -1,0 +1,49 @@
+body {
+    background-color: #FAEBC8;
+    width: 1000px;
+}
+section {
+    
+    padding: 10px;
+    box-shadow: 0px 0px 15px 4px #bc5757;
+    border-radius: 2em;
+    display: inline-block;
+    width: 1000px;
+    height: 460px;
+    background: white;
+    margin: 150px 250px 150px 250px;
+    padding: 0
+    
+}
+ul {
+    padding-left: 80px;
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+    width: 245px;
+    padding-right: 50px;
+    margin: 0;
+}
+img {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+ul li h2 {
+    font-family: sans-serif;
+}
+ul li p {
+    text-align: left;
+    font-family: sans-serif;
+}
+div p {
+    font-style: oblique;
+    color: rgb(101, 44, 44);
+    margin: 30px 0 10px 0;
+    font-size: 20px;
+    text-shadow: 20px 16px 2px rgb(148 107 105)
+}
+
