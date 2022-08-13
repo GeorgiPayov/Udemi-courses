@@ -6,11 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  showSecret = false;
-  log = [2];
+  oddNumbers: number[] = [];
+  evenNumbers: number[] = [];
 
-  onToggleDetails() {
-    this.showSecret = !this.showSecret;
-    this.log.push(this.log.length+ 1);
+  onIntervalFired(firedNumber: number) {
+    if (firedNumber % 2 === 0) {
+      this.evenNumbers.push(firedNumber);
+    } else {
+      this.oddNumbers.push(firedNumber);
+    }
   }
 }
